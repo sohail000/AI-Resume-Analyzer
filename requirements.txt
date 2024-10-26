@@ -1,0 +1,7 @@
+python-dotenv
+google.generativeai
+python-multipart
+pdfminer.six
+python-docx
+pandas
+nltks
