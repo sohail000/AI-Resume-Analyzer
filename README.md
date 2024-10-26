@@ -54,29 +54,6 @@ An advanced resume analysis tool powered by Google's Gemini AI that provides det
   - pandas (Data handling)
   - NLTK (Text processing)
 
-## ⚙️ Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/ai-resume-analyzer.git
-cd ai-resume-analyzer
-```
-
-2. Create a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows, use: venv\Scripts\activate
-```
-
-3. Install required packages:
-```bash
-pip install -r requirements.txt
-```
-
-4. Create a `.env` file in the root directory and add your Gemini API key:
-```env
-GEMINI_API_KEY=your_api_key_here
-```
 
 ## 🚀 Usage
 
@@ -106,6 +83,7 @@ ai-resume-analyzer/
 ├── skill_analyzer.py   # Skills analysis module
 ├── utils.py           # Utility functions
 └── requirements.txt   # Project dependencies
+.env is removed from this directory
 ```
 
 ## 🎯 Key Components
@@ -141,4 +119,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 For any queries or suggestions, please open an issue in the GitHub repository.
 
 ---
-Made with ❤️ using Gemini AI
